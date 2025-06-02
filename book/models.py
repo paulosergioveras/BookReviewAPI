@@ -23,3 +23,6 @@ class Book(models.Model):
     pages = models.PositiveIntegerField(null=True, blank=True, validators=[MinValueValidator(1)])
     publisher = models.CharField(max_length=200, null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.title
