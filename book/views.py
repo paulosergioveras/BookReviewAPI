@@ -6,7 +6,7 @@ from .serializers import BookSerializer
 
 
 class BookListCreateView(generics.ListCreateAPIView):
-    queryset = Book.objetcs.all()
+    queryset = Book.objects.all()
     serializer_class = BookSerializer
 
 class BookRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):

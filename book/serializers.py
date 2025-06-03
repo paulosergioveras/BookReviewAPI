@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from . import Book
+from .views import Book
 
 
 
