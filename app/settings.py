@@ -39,11 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
+    'rest_framkework_simplejwt',
 
     'book',
-    'review',
+    
 
     'drf_yasg',
+    'review.apps.ReviewConfig',
 ]
 
 MIDDLEWARE = [
