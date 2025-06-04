@@ -42,6 +42,8 @@ INSTALLED_APPS = [
 
     'book',
     'review',
+
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
