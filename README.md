@@ -45,17 +45,3 @@ python manage.py runserver
 - OpenAPI Schema (JSON): [`/swagger.json`](http://localhost:8000/swagger.json)
 
 ---
-
-## Authentication
-
-This API uses token-based authentication. To obtain a token:
-
-1. Create a user via `/admin/` or a registration endpoint (if available).
-2. Make a `POST` request to `/api/token/` with your credentials:
-
-```json
-{
-  "username": "your_username",
-  "password": "your_password"
-}
-```
